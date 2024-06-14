@@ -1,0 +1,49 @@
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add any global styles here */
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+a {
+  @apply text-blue-500;
+}
+
+button {
+  @apply cursor-pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
+
+p {
+  @apply mb-4;
+}
+
+/* Utility classes for padding and margins */
+.container {
+  @apply mx-auto px-4;
+}
+
+/* Responsive grid layout for the sections */
+.section-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-6;
+}
+
+/* Custom styles for buttons */
+.btn-primary {
+  @apply bg-blue-500 text-white px-4 py-2 rounded;
+}
+
+.btn-secondary {
+  @apply bg-gray-200 px-4 py-2 rounded;
+}
+
+/* Custom image styles */
+.img-rounded {
+  @apply rounded-lg shadow-lg;
+}
